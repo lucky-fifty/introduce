@@ -22,7 +22,7 @@
   
   <script>
     var doc = new window.jspdf.jsPDF();
-    doc.loadFile('./hlp-intro.dpf');
+    doc.loadFile('./hlp-intro.pdf');
     document.getElementById("my_iframe").src = doc.output('datauristring');//在iframe中显示
   </script>
 </body>
